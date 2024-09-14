@@ -17,5 +17,5 @@ Day 2
 ![alt text](<Screenshot from 2024-09-14 14-35-42.png>)
 
 
-
+![alt text](<Screenshot from 2024-09-14 14-41-25.png>)
 
