@@ -10,12 +10,13 @@ pictures from the practical
 
 ![Screenshot from 2024-08-23 05-58-04](https://github.com/user-attachments/assets/070f6b7e-1ce8-45e6-a909-874be941814b)
 
-![alt text](<Screenshot from 2024-09-14 14-32-09.png>)
-
-Day 2
-
-![alt text](<Screenshot from 2024-09-14 14-35-42.png>)
-
-
-![alt text](<Screenshot from 2024-09-14 14-41-25.png>)
-
+![Screenshot from 2024-09-14 14-32-09](https://github.com/user-attachments/assets/36fac1af-c5a0-40ef-901e-0d1057dcff71)
+![Screenshot from 2024-09-14 14-35-42](https://github.com/user-attachments/assets/f63eac92-c976-46c1-952f-5ffea281d844)
+![Screenshot from 2024-09-14 14-41-25](https://github.com/user-attachments/assets/805ec84e-4d05-41aa-9576-92e69c856cf0)
+![Screenshot from 2024-09-14 23-27-47](https://github.com/user-attachments/assets/7190e874-813e-4433-8bb7-7cbb9dffabb1)
+![Screenshot from 2024-09-14 23-47-28](https://github.com/user-attachments/assets/97e50d7c-a330-4a30-92ef-8a982960f84f)
+![Screenshot from 2024-09-14 23-54-23](https://github.com/user-attachments/assets/83c9672c-0e08-49c6-9353-2e8f4aeecda3)
+![Screenshot from 2024-09-14 23-57-38](https://github.com/user-attachments/assets/1bf8b9bd-135e-4476-8beb-584ca024be74)
+![Screenshot from 2024-09-14 23-58-18](https://github.com/user-attachments/assets/c6c6459b-500b-4bb9-9b09-300ef15c783b)
+![Screenshot from 2024-09-15 00-03-27](https://github.com/user-attachments/assets/6893c9e1-75fa-4f0d-861f-5ef87e3fdead)
+![Screenshot from 2024-09-15 00-04-25](https://github.com/user-attachments/assets/96e59c96-489f-4afd-90b3-6d246098b7c5)
