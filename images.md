@@ -43,3 +43,5 @@ pictures from the practical
 ![Screenshot from 2024-09-15 11-55-41](https://github.com/user-attachments/assets/79c8f105-0a7d-407e-b96f-a6b23849254f)
 ![Screenshot from 2024-09-15 11-57-36](https://github.com/user-attachments/assets/9ba30931-4e73-49cc-9c7e-d9d03d3cd281)
 ![Screenshot from 2024-09-15 12-01-51](https://github.com/user-attachments/assets/45bc0fa1-9220-4c85-bf8f-a2d740d38fb1)
+
+![Screenshot from 2024-09-15 12-32-33](https://github.com/user-attachments/assets/152f7739-4568-45a1-a291-2c4f71bf557d)

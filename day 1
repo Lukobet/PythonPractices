@@ -169,3 +169,16 @@ print('python' in course)
 
 # Arthimetic Operations supported in Python
 
+## there are addition, subtraction, multiplication and division is intoo 2
+## addition
+print (10 + 3)
+
+## subtraction
+print (10 - 3)
+
+## multiplication
+
+print(10 * 3)
+
+![Screenshot from 2024-09-15 12-32-33](https://github.com/user-attachments/assets/152f7739-4568-45a1-a291-2c4f71bf557d)
+
