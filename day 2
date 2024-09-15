@@ -1,1 +1,11 @@
-# strings
+# strings methods
+course = 'Python for Beginners'
+# to check the existence of a character in the sentence use in
+print('Python' in course)
+
+# or
+
+print('python' in course)
+
+
+# This will give us a  BULLION VALUE I.E True or False
