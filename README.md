@@ -107,7 +107,7 @@ print(msg)
 
 # strings methods
 course = 'Python for Beginners'
-# to calculate the total number of characters in the sentence use len
+# to calculate (count) the total number of characters in the sentence use len
 print(len(course))
 
 # to convert characters in the sentence to lower case or upper case use .
@@ -137,3 +137,6 @@ print('python' in course)
 
 
 # This will give us a  BULLION VALUE I.E True or False
+
+
+# Arthimetic Operations supported in Python
