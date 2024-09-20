@@ -1,0 +1,131 @@
+# Arthimetic Operations supported in Python
+## there are addition, subtraction, multiplication and division is into 2
+print(10 / 3)
+#the answer will be a floating number i.e decimal numbers 
+#but to get an integer use double slash (//)
+print(10 // 3)
+
+print(10 % 3)
+
+print(10 ** 3) #raise to power 3
+
+# more examples
+x = 10
+x = x + 3
+print(x)
+# more examples for orgumented assignment operator
+x = 10
+x += 3
+print(x)
+# more examples for orgumented assignment operator
+x = 10
+x -= 3
+print(x)
+
+
+# python goes in this order when solving : exponentiation 2 ** 2 , then multiplication or division then addition or subtraction. for examples:
+x = 10 + 3 * 2 ** 2
+print(x)
+# again python goes in this order when solving : Parenthesis, exponentiation 2 ** 2 , then multiplication or division then addition or subtraction. for examples:
+x = (10 + 3) * 2 ** 2
+print(x)
+# self practice
+x = (2 + 3) * 10 - 3 
+print(x)
+# math functions
+x = 2.9
+# round figure 
+print(round(x))
+x = -2.9
+# abs (absolute) this will always return the absolute representation of the value even if it is in negative 
+print(abs(x))
+
+# math functions module
+import math 
+print(math.ceil(2.9))
+
+import math 
+print(math.floor(2.9))
+
+# if statement
+# # you want to have this statments :: if it's hot
+                                    #   It's a hot day
+                                    #   Drink plenty water
+                                    # otherwise if it's cold
+                                    #   It's a cold day
+                                    #   Wear warm clothes
+                                    # otherwise
+                                    #   Its' a lovely day
+is_hot = True
+if is_hot:
+    print("It's a hot day")
+print("Enjoy you day")
+
+
+# if i set it to False the result will be just (Enjoy your day)
+is_hot = False
+if is_hot:
+    print("It's a hot day")
+print("Enjoy you day")
+
+
+is_hot = False
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+else:
+    print("It's a cold day")
+    print("Wear warm clothes")
+print("Enjoy you day")
+
+
+is_hot = False
+is_cold = True
+
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("It's a cold day")
+    print("Wear warm clothes")
+else:
+    print("It's a lovely day")
+
+print("Enjoy your day")
+
+
+is_hot = False
+is_cold = False
+
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("It's a cold day")
+    print("Wear warm clothes")
+else:
+    print("It's a lovely day")
+
+print("Enjoy your day")
+
+
+#self practice : Price of a house is $1M
+                #If buyer has good credit
+                    #they need to put down 10%
+                #otherwise
+                    #they need to put down 20%
+                #print the down payment
+
+price = 1000000
+has_good_credit = True
+
+
+if has_good_credit:
+    down_payment = 0.1 * price
+
+else:
+    down_payment = 0.1 * price
+
+print(f"down_payment: ${down_payment}")
+
+

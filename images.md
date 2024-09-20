@@ -45,3 +45,7 @@ pictures from the practical
 ![Screenshot from 2024-09-15 12-01-51](https://github.com/user-attachments/assets/45bc0fa1-9220-4c85-bf8f-a2d740d38fb1)
 
 ![Screenshot from 2024-09-15 12-32-33](https://github.com/user-attachments/assets/152f7739-4568-45a1-a291-2c4f71bf557d)
+
+
+
+DAy 2
