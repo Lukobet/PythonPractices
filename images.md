@@ -49,3 +49,22 @@ pictures from the practical
 
 
 DAy 2
+![Screenshot from 2024-09-20 04-54-12](https://github.com/user-attachments/assets/4e6b6ed1-af7c-4002-8c10-4be5d73e9c61)
+![Screenshot from 2024-09-20 04-58-18](https://github.com/user-attachments/assets/4b53f0d9-bda5-4b27-b3e4-5c5e851cb307)
+![Screenshot from 2024-09-20 05-00-53](https://github.com/user-attachments/assets/32f31386-1bef-4f18-a73e-28d5255e6075)
+![Screenshot from 2024-09-20 05-03-10](https://github.com/user-attachments/assets/f5bdb44e-3ed1-48eb-85eb-205e8a0f101d)
+![Screenshot from 2024-09-20 05-05-51](https://github.com/user-attachments/assets/99b454bb-25b7-4cef-b705-ebdb96658969)
+![Screenshot from 2024-09-20 05-07-40](https://github.com/user-attachments/assets/6bc51c3c-b9cf-4bc9-9dda-ed9c1d1245dc)
+![Screenshot from 2024-09-20 05-11-41](https://github.com/user-attachments/assets/ae0b696e-9d09-4965-b05d-f697c0e80e43)
+![Screenshot from 2024-09-20 05-14-05](https://github.com/user-attachments/assets/7d75a06e-617f-48c5-8b81-0d2fc30378cf)
+![Screenshot from 2024-09-20 05-16-12](https://github.com/user-attachments/assets/316d36f4-7637-403e-b605-7c856c94be28)
+![Screenshot from 2024-09-20 05-17-35](https://github.com/user-attachments/assets/f48b7f67-81a5-4e48-8ca9-301157b9c9f7)
+![Screenshot from 2024-09-20 05-20-29](https://github.com/user-attachments/assets/d00e511e-00e8-4bb6-942d-21b2573b785a)
+![Screenshot from 2024-09-20 05-23-02](https://github.com/user-attachments/assets/bb3752a9-34ac-4eef-90e3-c88a51bcd792)
+![Screenshot from 2024-09-20 05-23-53](https://github.com/user-attachments/assets/e26e7ae0-8c58-4312-93b7-2c28c9400fff)
+![Screenshot from 2024-09-20 05-31-25](https://github.com/user-attachments/assets/6901fa52-b148-46c0-9a26-e68afcafff91)
+![Screenshot from 2024-09-20 05-32-53](https://github.com/user-attachments/assets/b34b56bd-e670-40a9-b664-b9062acb4478)
+![Screenshot from 2024-09-20 05-36-24](https://github.com/user-attachments/assets/3bd41220-c5dd-4550-aaff-1a8b25ee8fff)
+![Screenshot from 2024-09-20 05-40-13](https://github.com/user-attachments/assets/99e6fc02-4e1d-4d10-9d17-59217737de48)
+![Screenshot from 2024-09-20 05-41-09](https://github.com/user-attachments/assets/fa72be96-5200-4541-b55d-484e4daf39e8)
+![Screenshot from 2024-09-20 05-49-42](https://github.com/user-attachments/assets/c0c32c30-02c5-46f5-aceb-ef30ab451628)
