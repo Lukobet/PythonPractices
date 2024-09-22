@@ -68,3 +68,7 @@ DAy 2
 ![Screenshot from 2024-09-20 05-40-13](https://github.com/user-attachments/assets/99e6fc02-4e1d-4d10-9d17-59217737de48)
 ![Screenshot from 2024-09-20 05-41-09](https://github.com/user-attachments/assets/fa72be96-5200-4541-b55d-484e4daf39e8)
 ![Screenshot from 2024-09-20 05-49-42](https://github.com/user-attachments/assets/c0c32c30-02c5-46f5-aceb-ef30ab451628)
+
+
+Day 3
+

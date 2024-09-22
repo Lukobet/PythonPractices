@@ -1,0 +1,26 @@
+# Logical Operations
+# this is use when we have multiple conditions for instance if an applicant has high income AND good credit . THe person is Eligible for loan
+has_high_income = True
+has_good_credit = True
+
+if has_high_income and has_good_credit:
+    print("Eligible for loan")
+
+
+# if you set one of the statement to false nothing will display
+has_high_income = False
+has_good_credit = True
+
+if has_high_income and has_good_credit:
+    print("Eligible for loan")
+
+
+# if an applicant has high income OR good credit . The person is Eligible for . 
+#here since of the condition is available the answer will be eligible for loan
+has_high_income = False
+has_good_credit = True
+
+if has_high_income or has_good_credit:
+    print("Eligible for loan")
+
+
