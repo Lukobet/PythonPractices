@@ -67,7 +67,61 @@ else:
 
 ![Screenshot from 2024-09-22 22-09-44](https://github.com/user-attachments/assets/64a8ebf8-cc10-4706-9124-d865f55bfec9)
 
+# self practice my attempt
+# this is used when we want to compare a variable with value.
+#for instance : if name is less than 3 characters long
+                     #name must be at least 3 characters
+                #otherise if more than 50 characters long
+                    #name can be a maximum of 50 characters
+                #otherwise 
+                    #name looks good
+name = 3
 
+if name < 3:
+    print("name must be at least 3 characters")
+else:
+    print("name can be a maximum of 50 characters")
+
+![Screenshot from 2024-09-22 22-16-52](https://github.com/user-attachments/assets/7c6626c9-aa7d-447b-8545-4baa006107c8)
+
+#Solution
+name = "J"
+
+
+if len(name) < 3:
+    print("name must be at least 3 characters")
+elif len(name) > 50:
+    print("name can be a maximum of 50 characters")
+else:
+    print("name looks good")
+![Screenshot from 2024-09-22 22-20-38](https://github.com/user-attachments/assets/1908ccee-a4bf-4289-b439-f79cde67529a)
+## i added more than 50 to the name 
+name = "Jcdgfhgbvhtjkmhbjhxvdfgxdfgvxxfsdgfghfhesxdfdfttgfjhbnjgvgdxfazdsfdfcvbfvnecdyhngkjnmlnhn"
+
+
+if len(name) < 3:
+    print("name must be at least 3 characters")
+elif len(name) > 50:
+    print("name can be a maximum of 50 characters")
+else:
+    print("name looks good")
+
+![Screenshot from 2024-09-22 22-23-46](https://github.com/user-attachments/assets/542a47c9-a881-4ae6-a6f2-8bccdfce156a)
+
+### now did a proper name between 3 to 50
+name = "John Smith"
+if len(name) < 3:
+    print("name must be at least 3 characters")
+elif len(name) > 50:
+    print("name can be a maximum of 50 characters")
+else:
+    print("name looks good")
+
+![Screenshot from 2024-09-22 22-24-20](https://github.com/user-attachments/assets/d567b828-3213-4669-a25d-a1ce2b669f6a)
+
+
+
+    
 
 
 
