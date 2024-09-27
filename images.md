@@ -72,3 +72,12 @@ DAy 2
 
 Day 3
 
+![Screenshot from 2024-09-22 22-09-44](https://github.com/user-attachments/assets/6961176c-882e-44eb-ae71-021f49262081)
+![Screenshot from 2024-09-22 22-16-52](https://github.com/user-attachments/assets/6664afc7-8324-4ce1-bf11-2aa68213277d)
+![Screenshot from 2024-09-22 22-20-38](https://github.com/user-attachments/assets/13b77c7c-8514-401f-8e39-df1f3683e734)
+![Screenshot from 2024-09-22 22-23-46](https://github.com/user-attachments/assets/40af074f-f257-4889-b951-a3153c54a68e)
+![Screenshot from 2024-09-22 22-24-20](https://github.com/user-attachments/assets/ec315152-221a-4bf9-9309-7a6c9446684a)
+
+
+
+DAy 4
