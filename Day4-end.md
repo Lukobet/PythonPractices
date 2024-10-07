@@ -1,5 +1,5 @@
 
-# While loops
+# WHILE LOOPS
 ## This is used to execute a block of code multiple times and they are often used in building interactive programs and games.
 
 ```
@@ -26,8 +26,8 @@ while i <= 5:
 ```
 ![Screenshot from 2024-09-27 04-52-46](https://github.com/user-attachments/assets/4c1b9d7f-cc2f-4169-a039-1a43792017ba)
 
-# How to use a while loop to build a Guessing Game
-## first thing is to define a variable to define a secret number
+## How to use a while loop to build a Guessing Game
+### first thing is to define a variable to define a secret number
 
             ##### secret_number = 9
 ## we then need a while loop to ask a user to make  guess
@@ -98,5 +98,147 @@ else:
     print('Sorry you failed')
  ```
 ![Screenshot from 2024-09-27 05-30-43](https://github.com/user-attachments/assets/ccf0f05c-7932-43f3-8abe-52e05c56180a)
- 
 
+
+ ## BUILDING A CAR GAME using while loops
+```
+command = "" #an empty string is a sting that has no chaacter in it. it just has the quote
+
+while command.lower() != "quit":
+    command = input(">")
+    if command.lower() == "start":
+        print("Car started...")
+    elif command.lower() == "stop":
+        print ("Car stopped.")
+```
+
+### looking at the above codes we have repeated words and this is bad, to solve this issue turn it to the below
+
+```
+command = ""
+
+while command != "quit":
+    command = input(">").lower()
+    if command == "start":
+        print("Car started...")
+    elif command == "stop":
+        print ("Car stopped.")
+    elif command == "help":
+        print("""
+              start - to start the car
+              stop - to stop the car
+              quit - to quit
+              """)
+    else:
+        print("Sorry, I don't understand this")
+
+```
+![Screenshot from 2024-10-07 05-22-15](https://github.com/user-attachments/assets/b0d74699-3a2c-42f4-a84c-dc963e11a0cc)
+### looking at this  there is a lot of spce in the result for help command and also the quit result is not suppose to give any answwer.
+```
+command = ""
+while True: ### remove the (command != "quit") and replace withh (True)
+    command = input(">").lower()
+    if command == "start":
+        print("Car started...")
+    elif command == "stop":
+        print ("Car stopped.")
+    elif command == "help":
+        print(""" 
+start - to start the car
+stop - to stop the car
+quit - to quit
+              """)
+    elif command == "quit": ### added this 
+        break
+    else:
+        print("Sorry, I don't understand this !")
+
+```
+![Screenshot from 2024-10-07 05-29-59](https://github.com/user-attachments/assets/fd8ac0ad-6242-48d6-b7a1-5dd616c20bdb)
+
+# to make the programme make sense, just incase the person tries to start or stop the car, there should be message to tell the person the car has been started ealrier or stopped.
+```
+command = ""
+started = False
+while True:
+    command = input(">").lower()
+    if command == "start":
+        if started:
+            print("Car is already started")
+        else:
+            started = True
+            print("Car started...")
+    elif command == "stop":
+        if not started:
+            print("Car is already stopped")
+        else:
+            started = False
+            print ("Car stopped.")
+    elif command == "help":
+        print(""" 
+start - to start the car
+stop - to stop the car
+quit - to quit
+              """)
+    elif command == "quit": 
+        break
+    else:
+        print("Sorry, I don't understand this !")
+
+```
+![Screenshot from 2024-10-07 05-37-52](https://github.com/user-attachments/assets/589f4565-dcd1-4248-a4f0-9f0bc495eed9)
+
+
+# FOR LOOPS
+###  This is used to iterate over items of a collecton, such as string( a sequence of character)
+### For example
+
+```
+```
+```
+
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
