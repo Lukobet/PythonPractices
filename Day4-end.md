@@ -248,16 +248,59 @@ print(f"Total: {total}")
 ```
 ![Screenshot from 2024-10-13 16-13-01](https://github.com/user-attachments/assets/d2884a33-9e66-46ab-8dec-5cfa30b337fd)
 
-## NESTED LOOPS
-```
-```
-```
-```
+# NESTED LOOPS
+## this means adding one loop into another loop. with this we can easily generate a list of cordinates, i.e a combination of x and y value (x, y) (0, 0) (0, 1) (0, 2) (1, 0) (1, 1) (1, 2)
 
 ```
+for x in range(4):
+    for y in range(3):
+        print(f'({x}, {y})')
 ```
+![Screenshot from 2024-10-13 16-23-19](https://github.com/user-attachments/assets/be484ce5-304d-4c7f-b763-2081639d55af)
+### look at this it did for 0 first before going to 1 and 2 and 3 (all this are value for x)
+### exercise: draw f shape 
+xxxxx
+xx
+xxxxx
+xx
+xx
+
+## to cheat use the below
 ```
+numbers = [5, 2, 5, 2, 2]
+
+for x_count in numbers:
+    print('x' * x_count)
 ```
+![Screenshot from 2024-10-13 16-33-34](https://github.com/user-attachments/assets/3f2d9e26-9679-4a67-bc38-5bbc5ccd7725)
+### but the right way is 
+```
+numbers = [5, 2, 5, 2, 2]
+
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    
+    print(output)
+```
+![Screenshot from 2024-10-13 16-37-18](https://github.com/user-attachments/assets/65f04cb1-2536-4e51-9f76-bc69d5eedb9e)
+#### practice t get l shape
+
+```
+numbers = [1, 1, 1, 1, 5]
+
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    
+    print(output)
+```
+![Screenshot from 2024-10-13 16-38-53](https://github.com/user-attachments/assets/038537ea-c150-424b-abbf-0682f91fe5d8)
+
+# LISTS
+
 ```
 ```
 ```
