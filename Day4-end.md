@@ -195,6 +195,62 @@ quit - to quit
 ### For example
 
 ```
+for item in "Python":
+    print(item)
+```
+![Screenshot from 2024-10-13 15-55-05](https://github.com/user-attachments/assets/9888ad65-2873-40c7-8719-188167369c4f)
+
+####each character in the string is printed on new line.
+### example 2 using square bracket[]
+
+```
+for item in ['Mosh', 'Josh', 'Sarah']:
+    print(item)
+```
+![Screenshot from 2024-10-13 15-58-12](https://github.com/user-attachments/assets/56765f68-11e0-449a-ac8a-7b7631d677c0)
+### WE can also loop over a list of numbers
+
+```
+for item in [1, 2, 3, 4]:
+    print(item)
+```
+![Screenshot from 2024-10-13 16-00-32](https://github.com/user-attachments/assets/93d76f97-9e25-4bce-970e-1a458480a512)
+### to interate over a large list of numbers we use the range function.
+
+```
+for item in range(10):
+    print(item)
+```
+![Screenshot from 2024-10-13 16-02-42](https://github.com/user-attachments/assets/a1373b18-bbf6-4fe7-9f35-f90d79ff2364)
+### we can also do this 
+```
+for item in range(5, 10):
+    print(item)
+```
+![Screenshot from 2024-10-13 16-04-36](https://github.com/user-attachments/assets/7123f04f-bfc2-4271-802a-a483202e918a)
+### it can also pass in steps(like sequences)
+
+```
+for item in range(5, 10, 2):
+    print(item)
+```
+![Screenshot from 2024-10-13 16-06-12](https://github.com/user-attachments/assets/1db9842f-1a6a-479e-8fd9-6e6a6040fc55)
+#### Exercise : Write a program to calculate the total cost of all the items in a shopping cart
+```
+prices = [10, 20, 30]
+
+total = 0
+
+for price in prices:
+    total += price
+
+print(f"Total: {total}")
+```
+![Screenshot from 2024-10-13 16-13-01](https://github.com/user-attachments/assets/d2884a33-9e66-46ab-8dec-5cfa30b337fd)
+
+## NESTED LOOPS
+```
+```
 ```
 ```
 
@@ -220,6 +276,10 @@ quit - to quit
 ```
 ```
 ```
+
+```
+```
+```
 ```
 ```
 ```
@@ -230,6 +290,38 @@ quit - to quit
 ```
 ```
 
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+
+```
+```
+```
+```
+```
+```
 ```
 ```
 ```
