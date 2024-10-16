@@ -300,19 +300,57 @@ for x_count in numbers:
 ![Screenshot from 2024-10-13 16-38-53](https://github.com/user-attachments/assets/038537ea-c150-424b-abbf-0682f91fe5d8)
 
 # LISTS
+### using index wi=hich can be negative(-)( this starts from the back or end of the list) or positive
+```
+names = ['Tosin', 'Mosh', 'Sola', 'Titi', 'Femi']
+
+print(names[2])
+```
+![Screenshot from 2024-10-16 04-10-20](https://github.com/user-attachments/assets/019d0687-01b6-4c58-82a1-d779f6f06764)
+![Screenshot from 2024-10-16 04-12-03](https://github.com/user-attachments/assets/cd4998de-f212-499e-9fbe-652631824fc4)
+![Screenshot from 2024-10-16 04-12-24](https://github.com/user-attachments/assets/6e66a7e6-824a-468d-af7e-05f6afd35c4a)
+
+#### using a colon((:) to pass range of items( this will pass the list from the index indicated to the end of the strings
 
 ```
-```
-```
-```
-```
-```
-```
-```
-```
-```
-```
+names = ['Tosin', 'Mosh', 'Sola', 'Titi', 'Femi']
 
+print(names[2:])
+```
+![Screenshot from 2024-10-16 04-16-19](https://github.com/user-attachments/assets/5d9db48d-26fb-45db-a045-8357c625d87a)
+
+![Screenshot from 2024-10-16 04-17-11](https://github.com/user-attachments/assets/18e6c94d-d03f-449a-8d11-76a40802e322)
+### we can also specify the last index but it wont display the item
+```
+names = ['Tosin', 'Mosh', 'Sola', 'Titi', 'Femi']
+
+print(names[1:4])
+```
+![Screenshot from 2024-10-16 04-19-07](https://github.com/user-attachments/assets/bd8f05e1-bde4-4c01-bfcb-63e323e58c27)
+
+### we can also modify the list. for instance we made a mistake in the spelling
+```
+names = ['Tosin', 'Mosh', 'Sola', 'Titi', 'Femi']
+names[0] = 'Oluwatosin'
+print(names)```
+```
+![Screenshot from 2024-10-16 04-22-46](https://github.com/user-attachments/assets/a7e2e5c5-ad7b-4590-83c1-8d4cd42f4d40)
+
+### Exercise: Write a program to find the largest number in a list.
+
+```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+max = numbers[0]
+for number in numbers:
+    if number > max:
+        max = number
+
+print(max)
+```
+![Screenshot from 2024-10-16 04-28-53](https://github.com/user-attachments/assets/9bcd4f65-822d-4c95-aab3-863783dd3d85)
+
+# 2 Dimensional Lists
+## THis is a list in which each item in the list is in another list.
 ```
 ```
 ```
