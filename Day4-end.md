@@ -422,18 +422,57 @@ numbers = [3, 5, 2, 5, 8, 9, 10]
 print(numbers.count(5))
 ```
 ![Screenshot from 2024-10-26 05-07-58](https://github.com/user-attachments/assets/96c2ef97-249d-4a4c-8e11-c1118bb5233f)
-```
-```
+#### if you want to sort your lists use sort
+#### in ascending order
 
 ```
+numbers = [3, 5, 2, 5, 8, 9, 10]
+numbers.sort()
+print(numbers)
 ```
+![Screenshot from 2024-10-26 05-10-55](https://github.com/user-attachments/assets/cded40e8-be0c-41fc-9e4e-53290238c62c)
+##### to sort in descending order include reverse.
 ```
+numbers = [3, 5, 2, 5, 8, 9, 10]
+numbers.sort()
+numbers.reverse()
+print(numbers)
 ```
+![Screenshot from 2024-10-26 05-12-49](https://github.com/user-attachments/assets/d53f1cb5-f37d-4888-b31e-2e6ba7892110)
+
+##### to get a copy of the list use copy
 ```
+numbers = [3, 5, 2, 5, 8, 9, 10]
+numbers2 = numbers.copy()
+numbers.append(10)
+print(numbers2)
 ```
+![Screenshot from 2024-10-26 05-18-53](https://github.com/user-attachments/assets/b1fa62b9-3db9-4874-b40f-5e510080fdef)
+#### looking at the above evn if we append a new number in the list it wont be displayed in numbers2 because they ar two independent list
+#### Exercise: Write a program to remove the duplicates in a list
+##### my solution
+
 ```
+numbers = [3, 5, 2, 5, 8, 9, 10]
+numbers.remove(5)
+
+print(numbers)
 ```
+#### this didnt remove the duplicates 
+![Screenshot from 2024-10-26 05-22-37](https://github.com/user-attachments/assets/79f5c0ba-7552-4433-ad2c-75e4fd494b5d)```
+
 ```
+numbers = [3, 5, 2, 5, 8, 2, 3, 9, 10]
+uniques = []
+for number in numbers:
+    if number not in uniques:
+        uniques.append(number)
+
+print(uniques)
+```
+![Screenshot from 2024-10-26 05-26-35](https://github.com/user-attachments/assets/afd9894f-59f9-40f9-8b38-478ac2710b3b)
+#### self try bring out just the numbers that has duplicates, couldnt get it
+![Screenshot from 2024-10-26 05-33-07](https://github.com/user-attachments/assets/8b6b07b4-1ffd-461a-a4fc-076740070117)
 ```
 ```
 ```
