@@ -351,23 +351,77 @@ print(max)
 
 # 2 Dimensional Lists
 ## THis is a list in which each item in the list is in another list.
+# List methods
 ```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+numbers.append(20)
+
+print(numbers)
 ```
+##### number append adds numbers to the end of the list
+![Screenshot from 2024-10-26 04-51-29](https://github.com/user-attachments/assets/c19315a7-6961-4d9d-a626-ca50d072d7c3)
+
+##### but to add at the begining or middle use insert
 ```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+numbers.insert(0, 10)
+
+print(numbers)
 ```
+## at the beginnijng
+![Screenshot from 2024-10-26 04-54-21](https://github.com/user-attachments/assets/5d96b79f-3782-4918-9703-ae39a6727d22)
+#### to remove 
 ```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+numbers.remove(5)
+
+print(numbers)
 ```
+![Screenshot from 2024-10-26 04-56-17](https://github.com/user-attachments/assets/42ed92a9-69bd-4295-b310-7bcf37b026f3)
+### to remove all the items in the list use clear
 
 ```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+numbers.clear()
+
+print(numbers)
 ```
+![Screenshot from 2024-10-26 04-57-55](https://github.com/user-attachments/assets/869b5cef-7eb8-46e6-ac5f-337fbf302032)
+
+#### to remove the last number in the list use pop
 ```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+numbers.pop()
+
+print(numbers)
 ```
+![Screenshot from 2024-10-26 04-59-20](https://github.com/user-attachments/assets/2b1486c4-d067-43d7-90c9-6203d967f9e5)
+#### to check for the existence of a number in a list use index
 ```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+
+
+print(numbers.index(5))
 ```
+![Screenshot from 2024-10-26 05-01-37](https://github.com/user-attachments/assets/6fa709de-6dae-4526-a8db-519172554628)
+###### you get an error if you pass a wrong index
+![Screenshot from 2024-10-26 05-03-03](https://github.com/user-attachments/assets/593f7ccd-cd18-4f15-967a-4bf8e8277f11)
+
+##### checking the existence using an in operator and the response will in in buliion value (i.e True or False)
+
 ```
+numbers = [3, 5, 2, 6, 8, 9, 10]
+
+print(50 in numbers)
 ```
+![Screenshot from 2024-10-26 05-04-57](https://github.com/user-attachments/assets/d573dc3c-f664-47db-af35-315697ff043e)
+### to check how many times a number occurs in a list use count
 ```
+numbers = [3, 5, 2, 5, 8, 9, 10]
+
+print(numbers.count(5))
 ```
+![Screenshot from 2024-10-26 05-07-58](https://github.com/user-attachments/assets/96c2ef97-249d-4a4c-8e11-c1118bb5233f)
 ```
 ```
 
