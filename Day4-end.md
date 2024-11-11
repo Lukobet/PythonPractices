@@ -473,6 +473,11 @@ print(uniques)
 ![Screenshot from 2024-10-26 05-26-35](https://github.com/user-attachments/assets/afd9894f-59f9-40f9-8b38-478ac2710b3b)
 #### self try bring out just the numbers that has duplicates, couldnt get it
 ![Screenshot from 2024-10-26 05-33-07](https://github.com/user-attachments/assets/8b6b07b4-1ffd-461a-a4fc-076740070117)
+
+
+# TUPLES
+### These are similar to list, it can be used to store up listeof items like list, but unlike list we cannot modify them, we cannot add new itemms, we cannot remove existing items, it  immutable. we use square brackets[] to define lists and parenthesis() to define tuples. For instance: 
+
 ```
 ```
 ```
