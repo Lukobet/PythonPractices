@@ -531,7 +531,21 @@ print(customer["name"])
 ![Screenshot from 2024-11-11 04-40-22](https://github.com/user-attachments/assets/30cf71fc-383a-45fe-b264-b7c741951e1b)
 EXERCISE: write a program the write  out a phone number in words like phone : 1234 ans is one two three four
 ```
+phone = input("Phone: ")
+digits_mapping = {
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four"
+}
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!") + " "
+
+print(output)
 ```
+![Screenshot from 2024-11-11 04-57-21](https://github.com/user-attachments/assets/4edb571f-0bc1-4bcc-a960-e820eb10739f)
+
 ```
 ```
 ```
