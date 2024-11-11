@@ -476,19 +476,60 @@ print(uniques)
 
 
 # TUPLES
-### These are similar to list, it can be used to store up listeof items like list, but unlike list we cannot modify them, we cannot add new itemms, we cannot remove existing items, it  immutable. we use square brackets[] to define lists and parenthesis() to define tuples. For instance: 
+### These are similar to list, it can be used to store up listeof items like list, but unlike list we cannot modify them, we cannot add new itemms, we cannot remove existing items, it  immutable. we use square brackets[] to define lists and parenthesis() to define tuples. For instance: numbers = (1, 2, 3)
+### UNPACKING
+### for instances we have coordinates(1,2,3) and want to mulitply them , normally we are to do coordinates [0] * coordinates [1] * coordinates [2] or set them as variables as : x = coordinates [0] y = coordinates [1] z = coordinates [2], then do x * y * z. but in Tuples we do it like this:
+```
+coordinates = (1, 2, 3)
+x, y, z = coordinates
 
+print (y)
 ```
+![Screenshot from 2024-11-11 04-15-28](https://github.com/user-attachments/assets/89fafd3c-658f-4497-888e-669033b3ca99)
+* NOTE: this does not only work in Tuples we can also use it in lists. all we have to do is to change the parenthesis to square bracket
 ```
-```
+coordinates = [1, 2, 3]
+x, y, z = coordinates
 
+print (y)
 ```
+![Screenshot from 2024-11-11 04-18-35](https://github.com/user-attachments/assets/8857d330-6484-4ce5-8d4a-b5926f629251)
+# Dictionaries: These are used when we want to store information that comes as key  value pairs. For instance: Name : Tosin Aluko, Email: John@gmail.com, Phone: 1234. The keys here are name, email and phone while each of this keys has a value.
 ```
+customer = {
+    "name": "John Smith",
+    "age" : 30,
+    "is_verified": True
+}
+print(customer["name"])
 ```
+![Screenshot from 2024-11-11 04-26-20](https://github.com/user-attachments/assets/2465521b-2eca-40e9-af7b-a60a3d2e6150)
+#### normally if we pass a word that is not in the dictionary like burthname or Name the system will bring error but if we add .get and also change the square bracket to parenthesis it wont bring back error but say none
+
+![Screenshot from 2024-11-11 04-29-55](https://github.com/user-attachments/assets/8ba45024-8f9d-4069-9070-1fc5d0e01b12)
 ```
+customer = {
+    "name": "John Smith",
+    "age" : 30,
+    "is_verified": True
+}
+print(customer.get("Name"))
 ```
+![Screenshot from 2024-11-11 04-32-23](https://github.com/user-attachments/assets/a99f624f-6e3d-4a19-873e-a536b0541812)
+##### we can also add a default value to it.
+![Screenshot from 2024-11-11 04-36-08](https://github.com/user-attachments/assets/6b1f3ef9-734a-4e0c-8eda-753b2b461544)
+##### we can also update the dictionary
 ```
+customer = {
+    "name": "John Smith",
+    "age" : 30,
+    "is_verified": True
+}
+customer["name"] = "Jack Smith"
+print(customer["name"])
 ```
+![Screenshot from 2024-11-11 04-40-22](https://github.com/user-attachments/assets/30cf71fc-383a-45fe-b264-b7c741951e1b)
+EXERCISE: write a program the write  out a phone number in words like phone : 1234 ans is one two three four
 ```
 ```
 ```
