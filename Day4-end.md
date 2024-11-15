@@ -545,12 +545,40 @@ for ch in phone:
 print(output)
 ```
 ![Screenshot from 2024-11-11 04-57-21](https://github.com/user-attachments/assets/4edb571f-0bc1-4bcc-a960-e820eb10739f)
+# Emoji converter
+Using dictionaries
+```
+message = input(">")
+words = message.split(' ')
+emojis = {
+    ":)": "emoji symbol",
+    ":(": "emoji symbol"
+}
+output = ""
+for word in words:
+    output += emojis.get(word, word) + " "
+
+print(output)
+```
+# Functions
+This is a container for a few lines of code that perform a specific task. Lets write a simple program for printing a greeting message. 
 
 ```
-```
-```
+def greet_user():
+    print('Hi there!')
+    print('Welcome aboard!')
 
+
+print("Start")
+greet_user()
+print("Finish")
 ```
+![Screenshot from 2024-11-15 04-34-09](https://github.com/user-attachments/assets/b9c06b7f-e8aa-4efc-840b-f6fdd09839ea)
+# parameters
+use it to pass information to our functions
+
+
+
 ```
 ```
 ```
