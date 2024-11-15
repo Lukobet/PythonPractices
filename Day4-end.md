@@ -577,12 +577,46 @@ print("Finish")
 # parameters
 use it to pass information to our functions
 
+```
+def greet_user(name):
+    print(f'Hi {name}!')
+    print('Welcome aboard!')
 
 
+print("Start")
+greet_user("John")
+print("Finish")```
 ```
 ```
+def greet_user(first_name, last_name):
+    print(f'Hi {first_name} {last_name}!')
+    print('Welcome aboard!')
+
+
+print("Start")
+greet_user("John", "Smith")
+print("Finish")
 ```
+![Screenshot from 2024-11-15 04-53-25](https://github.com/user-attachments/assets/add965b4-c9ea-4e33-b104-b856f5462b68)
+#### parameters are the placeholder that we define in our function for receiving informations while arguments are the actual pieces of information that we supply for these functons.
+## keyword Arguments
+whenever we define a parameter for our functions we should always supply values otherwise we will get an error.
+
 ```
+def greet_user(first_name, last_name):
+    print(f'Hi {first_name} {last_name}!')
+    print('Welcome aboard!')
+
+
+print("Start")
+greet_user(last_name="Smith", first_name="John")
+print("Finish")
+```
+![Screenshot from 2024-11-15 05-04-32](https://github.com/user-attachments/assets/4e71b2e1-b39e-4ee2-b12c-d0956ed716c8)
+Use positional arguments for the most part, but if you are dealing with numerical values use Keyword argument which are best used to improve the readability of your codes. Note always use keyword arguments after a positional arguments.
+
+# Return statements: This involves a function that return values.
+
 ```
 ```
 ```
